@@ -1,0 +1,94 @@
+.bitlab_news{
+    margin: 15px 30px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04225e;
+
+}
+h3{
+    color: #04225e;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+
+.register{
+    margin-left: 20px;
+    display: inline-block;
+    min-width: 10px;
+}
+.register input{
+    font-size: 16px;
+
+}
+
+.register > p:not(:last-child){
+    font-size: 18px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news{
+    display: inline-block;
+    min-width: 10px;
+}
+.news p{
+    width: 700px;
+    flex-wrap: wrap;
+}
+
+.table{
+    margin-right: 20px;
+}
+table  td{
+    border: 1px solid white;
+    text-align: center;
+
+}
+table tbody tr:nth-child(n+5):nth-child(-n+7){
+    background-color: lightgray;
+}
+thead td{
+    background-color: black ;
+    color: white;
+}
+tbody tr:first-child{
+    background-color: green;
+}
+tbody tr:nth-child(n+2):nth-child(-n+4){
+    background-color: lightgreen;
+}
+tbody tr:nth-last-child(-n+3){
+    background-color: pink;
+}
+
+input:focus{
+    border-color: #ff0000; /* Изменить цвет рамки */
+    background-color: #f8f8f8; /* Изменить цвет фона */
+}
