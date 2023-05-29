@@ -181,13 +181,13 @@
 
 //Task 5-15
 
-// let tenge=parseInt(prompt("ENTER TENGE"));
-// let cent = 4;
-// if(tenge%380!=0){
-//     let toDollar= parseInt(tenge/380);
-//     let toCent = parseInt(tenge%380/3.8)
-//     alert(`${toDollar} USD and ${toCent} cents`);
-// }else alert("ONLY "+tenge/380+" USD")
+let tenge=parseInt(prompt("ENTER TENGE"));
+
+if(tenge%380!=0){
+    let toDollar= parseInt(tenge/380);
+    let toCent = parseInt((tenge-toDollar*380)/3.8)
+    alert(`${toDollar} USD and ${toCent} cents`);
+}else alert("ONLY "+tenge/380+" USD")
 
 
 //Task 5-16
