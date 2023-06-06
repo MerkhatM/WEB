@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container div{
+    width: 23%;
+}
+/*input{*/
+/*    width: 100%;*/
+/*    height: 30px;*/
+/*}*/
+.select_inp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 400px;
+}
+.select{
+    width: 300px;
+}
