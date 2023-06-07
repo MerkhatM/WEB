@@ -10,25 +10,30 @@
         <header>
             <p class="logo"> TWITTER</p>
             <nav style="display: inline-block ;min-width: 10px">
-                <a href="" >Tweets</a>
-                <a href="/" >Login</a>
-                <a href="" >Register</a>
+                <a href="./index.html" >Tweets</a>
+                <a href="./login/login.html"  >Login</a>
+                <a href="./index.html">Register</a>
             </nav>
         </header>
         <div class="content">
             <div class="content_body">
                 <p>EMAIL:</p>
-                <input type="text">
+                <input id="email_inp" type="text">
                 <p>PASSWORD</p>
-                <input type="text">
+                <input id="password_inp" type="text">
                 <p>FULL NAME:</p>
-                <input type="text">
+                <input type="text" id="fullName_inp">
                 <p>COUNTRY:</p>
-                <select>
-                    <option>Kazakhstan</option>
-                    <option>France</option>
-                    <option>USA</option>
+                <select id="country_select">
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="France">France</option>
+                    <option value="USA">USA</option>
+                    <option value="Germany">Germany</option>
+
                 </select>
+                <p>BIRTHDATE:</p>
+                <input type="date" id="date_inp">
+                <button class="register_btn" id="register_btn">Register</button>
             </div>
         </div>
     </div>

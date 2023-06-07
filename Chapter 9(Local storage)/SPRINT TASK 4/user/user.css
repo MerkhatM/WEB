@@ -44,3 +44,8 @@ a:hover{
     font-size: 18px;
     margin-top: 16px;
 }
+
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+}
