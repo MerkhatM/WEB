@@ -6,19 +6,28 @@
 .container div{
     width: 23%;
 }
-/*input{*/
-/*    width: 100%;*/
-/*    height: 30px;*/
-/*}*/
+input{
+    width: 100%;
+    height: 30px;
+}
 .select_inp{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.input{
-    width: 400px;
+.select_inp > input{
+    width: 600px;
 }
-.select{
-    width: 300px;
+.select_inp > select{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.results > input{
+    background-color: whitesmoke;
+}
+
+.txt{
+    font-weight: bold;
 }
